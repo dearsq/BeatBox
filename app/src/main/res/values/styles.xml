@@ -10,13 +10,15 @@
         <item name="colorAccent">@color/gray</item>
 
         <item name="android:windowBackground">@color/soothing_blue</item>
+        <item name="buttonStyle">@style/BeatBoxButton</item>
     </style>
 
-    <style name="BeatBoxButton">
+    <style name="BeatBoxButton" parent="Widget.AppCompat.Button">
         <item name="android:background">@color/dark_blue</item>
     </style>
 
     <!-- 两种继承方式结果相同 -->
+<!--
     <style name="BeatBoxButton.Strong">
         <item name="android:textStyle">bold</item>
     </style>
@@ -24,5 +26,5 @@
     <style name="StrongBeatBoxButton" parent="@style/BeatBoxButton">
         <item name="android:textStyle">bold</item>
     </style>
-
+-->
 </resources>
