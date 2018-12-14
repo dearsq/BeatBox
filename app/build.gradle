@@ -16,6 +16,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    //打开 IDE 的整合功能, 允许使用数据绑定产生的类, 并整合到编译中
+    dataBinding {
+        enabled = true
+    }
 }
 
 dependencies {
