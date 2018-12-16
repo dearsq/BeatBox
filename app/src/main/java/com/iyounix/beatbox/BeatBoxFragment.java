@@ -28,7 +28,7 @@ public class BeatBoxFragment extends Fragment {
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        //確保實例不被銷毀
+        //確保 fragment 實例不被銷毀
         setRetainInstance(true);
 
         mBeatBox = new BeatBox(getActivity());
