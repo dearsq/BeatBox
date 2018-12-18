@@ -18,10 +18,10 @@ import static org.junit.Assert.*;
 @RunWith(AndroidJUnit4.class)
 public class BeatBoxActivityTest {
 
-    // Rule 表示, 告诉 JUnit 运行测试前, 要启动一个 BeatBoxActivity 实例
-    @Rule
-    public ActivityTestRule<BeatBoxActivity> mActivityRule =
-            new ActivityTestRule<>(BeatBoxActivity.class);
+//    // Rule 表示, 告诉 JUnit 运行测试前, 要启动一个 BeatBoxActivity 实例
+//    @Rule
+//    public ActivityTestRule<BeatBoxActivity> mActivityRule =
+//            new ActivityTestRule<>(BeatBoxActivity.class);
 
     @Test
     public void showsFirstFileName(){
