@@ -1,11 +1,15 @@
 <resources>
 
     <!-- Base application theme. --><!-- 带深色工具栏的浅色主题 -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <!-- colorPrimary 用于工具栏 -->
+        <item name="colorPrimary">@color/red</item>
+        <!-- colorPrimaryDark 用于顶部状态栏 -->
+        <item name="colorPrimaryDark">@color/dark_red</item>
+        <item name="colorAccent">@color/gray</item>
+
+        <item name="android:windowBackground">@color/soothing_blue</item>
     </style>
 
     <style name="BeatBoxButton">
